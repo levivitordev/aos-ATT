@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("API funcionando 🚀");
+  res.send("ATIVIDADE DE AOS PROFESSOR MARCIO !!!!!");
 });
 app.get("/random", (req, res) => {
   const numero = Math.floor(Math.random() * 100) + 1;
